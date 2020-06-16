@@ -83,3 +83,4 @@ function getRangeValues() {
 const ApplyFilters = document.getElementById("ApplyButton");
 
 ApplyFilters.addEventListener("click", getRangeValues);
+// test
