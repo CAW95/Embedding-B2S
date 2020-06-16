@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🤷‍♀️</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY="
+      crossorigin="anonymous"
+    /> -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+  </head>
+  <body>
+    <h1>Clapham Ultimate Workout of the Week</h1>
+    <div>
+      <button id="showViz">Show Viz</button>
+      <button id="hideViz">Hide Viz</button>
+      <button id="exportPDF">Export to PDF</button>
+      <button id="exportPPT">Export to Powerpoint</button>
+    </div>
+    <hr />
+    <div class= "rangefilters">
+        <input type="number" id ="minValue"
+        placeholder= "min-value"></input>
+        <input type="number" id ="maxValue"
+        placeholder= "max-value"></input>
+        <button id="ApplyButton">Apply</button>
+
+    </div>
+    <div id="vizContainer"></div>
+
+
+    <script src="/app.js"></script>
+  </body>
+</html>
