@@ -72,6 +72,11 @@ function getRangeValues() {
     min: minValue,
     max: maxValue,
   });
+  const sheetToFilter2 = sheets[1];
+  sheetToFilter2.applyRangeFilterAsync("SUM(Total Points)", {
+    min: minValue,
+    max: maxValue,
+  });
   console.log("Running RangeFilter");
 }
 
