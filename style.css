@@ -1,29 +1,24 @@
 h1 {
-  font-style: bold,italic;
+  font-style: bold, italic;
   text-align: center;
   /* font-style: italic; */
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  monospace;
 }
 
 button {
   font-style: italic;
-  text-align:center;
+  text-align: center;
 }
 
-button:hover{
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-background-color: rgb(97, 97, 102)
-
-
+button:hover {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(97, 97, 102);
 }
 
 body {
-
-background-color: rgb(180, 176, 176);
-
+  background-color: rgb(180, 176, 176);
 }
 
 .rangefilters {
-  padding: 5px;
+  padding: px;
 }
